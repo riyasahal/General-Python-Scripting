@@ -6,6 +6,6 @@ Returns: New String
 def title_convert( your_string ):
     return your_string.title()
 
-your_string = raw_input("Enter a string:")
+your_string = input("Enter a string:")
 new_string = title_convert(your_string)
 print("Your modified string: %s" % new_string)

@@ -17,7 +17,7 @@ def count_vowel( string, vowel):
     print("Number of vowels in your string:", count)
 
 vowel="AaEeIiOoUu"
-string = raw_input("Enter your string:")
+string = input("Enter your string:")
 input_choice = int(input("Which method would you prefer? \n1. For loop\n2. Dictionary\nEnter your choice(1-2):"))
 if input_choice == 1:
     vowel_count(string,vowel)
